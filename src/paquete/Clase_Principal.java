@@ -1,5 +1,7 @@
 package paquete;
 import paquete.FuncionRecursiva;
+import paquete.Torre_Hanoi;
+import java.util.Scanner;
 
 public class Clase_Principal {
     
@@ -89,8 +91,18 @@ public class Clase_Principal {
         
         System.out.println("__________________________________");
         
+        System.out.println("Torre de Hanoi");
         
+        int n = 0;
+        Scanner escribe = new Scanner (System.in);
+        Torre_Hanoi TH;
+        TH = new Torre_Hanoi();
         
+        System.out.println("Por favor escribe el numero de Discos");
+        
+        n = escribe.nextInt();
+        
+        TH.TorreH(n, 1, 2, 3);
     }
     
 }
