@@ -78,6 +78,16 @@ public class Clase_Principal {
             
         }while(r < 10);
         
+        System.out.println("\n__________________________________");
+        
+        System.out.println("Divide y Venceras");
+        
+        System.out.print("Esta funcion es muy importante, es cuando yo tengo un problema demaciado grande y no se como solucionarlo");
+        System.out.println("\nUna forma de solucionar este problema es dividiendolo en sub problemas, y solucionar cada sub problema dividido");
+        System.out.println("Y una vez solucionado cada subproblema, volvemos a unir cada subproblema para sacar una unica soluacion a mi problema original");
+        System.out.println("Esta funcion generalmente se utiliza para el ordenamiento de Array");
+        
+        System.out.println("__________________________________");
         
         
         
