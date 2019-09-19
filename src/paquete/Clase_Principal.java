@@ -2,6 +2,7 @@ package paquete;
 import paquete.FuncionRecursiva;
 import paquete.Torre_Hanoi;
 import java.util.Scanner;
+import paquete.Busqueda_Binaria;
 
 public class Clase_Principal {
     
@@ -105,6 +106,28 @@ public class Clase_Principal {
         TH.TorreH(n, 1, 2, 3);
         
         System.out.println("_________________________________________");
+        
+        System.out.println("Busqueda Binaria");
+        
+        //la busqueda binaria generalmente es buscar un valor pasando de posicion en posicion para desbues encontrar nuestro valor
+        
+        Busqueda_Binaria bb;
+        bb = new Busqueda_Binaria();
+        
+        int [] numeros = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20};
+        
+        int pos = bb.busquedaB(numeros, 10); //me va a votar el indice en donde esta el valor que queiro buscar
+        
+        if(pos > -1)
+        {
+            System.out.println("Tu valor ha sido encontrado en el indice: " + pos);
+        }
+        else
+        {
+            System.out.println("No se ha encontrado ningun valor");
+        }
+        
+        
     }
     
 }
