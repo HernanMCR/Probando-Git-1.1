@@ -103,6 +103,8 @@ public class Clase_Principal {
         n = escribe.nextInt();
         
         TH.TorreH(n, 1, 2, 3);
+        
+        System.out.println("_________________________________________");
     }
     
 }
